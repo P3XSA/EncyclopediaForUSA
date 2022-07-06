@@ -1,0 +1,82 @@
+html,   body {
+	        overflow-x:hidden;
+	        margin:0;
+			padding:0;
+        }
+		
+		body {
+			position:relative;
+			background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(read.jpg);
+			width:fixed;
+			height:fixed;
+			background-size:cover;
+		}
+		header {
+			width:100%;
+			height:50px;
+			padding:1% 1% 0.1% 1%;
+			background-position:fixed;
+			border-radius:7px;		
+			float:left;	
+		}
+		header #menu-item {
+			color:white;
+			padding:1% 1% 1% 1%;
+		    margin-left:5%;
+			margin-right:3.5%;
+			text-decoration:none;
+			font-family:Trebuchet MS;
+			font-size:20;
+		}
+		header #menu-item:hover {
+		    color:#caa4a4a1;
+   			transition:1s ease;
+		}
+        h1 {
+		    font-family:Trebuchet MS;
+            color:#ffffff;		
+		}
+	    p {  
+		    font-size:18;
+			font-family:Trebuchet MS;
+            color:#ffffff;
+			padding-left:1%;
+			padding-top:1%;
+			padding-bottom:1%;
+			padding-right:1%;
+			margin-right:1%;
+			margin-left:5%;
+			background-color:#121212af;
+		}
+		a {
+			color:#affafa
+		}
+		a:hover {
+			text-decoration:none;
+            color:#caa4a4a1;
+			transition:.3s ease;
+		}	
+        table {
+            margin-top:4%;
+			margin-right:-4%;
+  		}	
+		caption {
+		    color:white;	
+		}
+		.splitscreen {
+            display: flex;
+        }
+
+        .splitscreen .left,
+        .splitscreen .right {
+            flex: 1;
+		}
+        .edu {
+			background:white;
+            margin-left:28%;
+			margin-top:10%;
+		}
+		.educap {
+		    color:white;
+			margin-left:48%;
+		}
